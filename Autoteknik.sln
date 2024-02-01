@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autoteknik", "Autoteknik\Autoteknik.csproj", "{CA180E64-A97B-4715-AFE0-62FDC25DD64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoteknikTests", "AutoteknikTests\AutoteknikTests.csproj", "{1ED47AEC-6A4B-4667-88C9-CE7AD67DDB5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA180E64-A97B-4715-AFE0-62FDC25DD64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA180E64-A97B-4715-AFE0-62FDC25DD64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA180E64-A97B-4715-AFE0-62FDC25DD64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA180E64-A97B-4715-AFE0-62FDC25DD64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED47AEC-6A4B-4667-88C9-CE7AD67DDB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED47AEC-6A4B-4667-88C9-CE7AD67DDB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED47AEC-6A4B-4667-88C9-CE7AD67DDB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED47AEC-6A4B-4667-88C9-CE7AD67DDB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BBFCEF2-63B0-400E-8A61-C6EAF7A2FEBE}
+	EndGlobalSection
+EndGlobal
