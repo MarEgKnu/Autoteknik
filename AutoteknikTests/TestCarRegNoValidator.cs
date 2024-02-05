@@ -128,5 +128,17 @@ namespace AutoteknikTests
             // Assert
             Assert.IsFalse(resultat);
         }
+        public void Test_CarRegNoValidator_IsInvalid_NonCapitalLetters()
+        {
+            // Arrange
+            IValidator carValidator = new CarRegNoValidator();
+            string gyldigtRegistreringsnummer = "ab62345";
+
+            // Act
+            bool resultat = carValidator.Validate(gyldigtRegistreringsnummer);
+
+            // Assert
+            Assert.IsFalse(resultat);
+        }
     }
 }
